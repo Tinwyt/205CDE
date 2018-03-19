@@ -1,0 +1,78 @@
+﻿.navbar {
+	margin-bottom: 0;
+	border: 0;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 16px;
+	letter-spacing: 1px;
+	border-radius: 20;
+	background-color: #02a6f3;
+	line-height: 1.42857143 !important;
+}
+.navbar-default .navbar-toggle {
+	border-color: transparent;
+	color: white !important;
+}
+.nav.navbar-nav.navbar-right > li > a span {
+	color: white;
+}
+.table-striped > tbody > tr:nth-of-type (odd){
+background-color:#f9f9f9
+}
+option:disabled {
+    background:#CCCCCC;
+}
+.Icon {
+	font-size: 50px;
+	color: #02a6f3;
+}
+.navbar-default .navbar-nav > li > a {
+	color: white;
+}
+.container-fluid {
+	padding: 150px 50px;
+}
+.bg {
+	background-color: #f6f6f6;
+}
+h2 {
+	color: #02a6f3;
+}
+h3 {
+	font-family: "Arial Black", Gadget, sans-serif;
+	color: white ;
+
+}
+p {
+	font-family: "Arial Black", Gadget, sans-serif;
+	color: gray;
+	font-size: 16px;
+	letter-spacing: 1px !important;
+}
+.jumbotron {
+	background-color : #02a6f3;
+	padding: 220px 25px 100px;
+}
+.uploadbox{
+	 border-width:1px;
+	 border-color:#CCCCCC;
+	 border-style: solid; 
+	 text-align:center; 
+	 background-color:white;
+	 padding:5px ;
+}
+
+
+@media screen and (max-width: 768px) {
+.col-sm-4 {
+	text-align: center;
+	margin: 25px 0;
+}
+
+img {
+	max-height: 80%;
+	max-width: 80%;
+}
+.carousel-control.left, .carousel-control.right {
+	background: none !important;
+	filter: progid:none !important;
+}

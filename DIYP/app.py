@@ -25,10 +25,7 @@ def allowed_file(filename):
 
 @app.route('/')
 def index():
-    cursor = mysql.get_db().cursor()
-    cursor.execute("SELECT * FROM `Order`")
-    data = cursor.fetchall()
-    return render_template('index.html', test=data)
+    return render_template('index.html')
 
 
 @app.route('/test', methods=['POST', 'GET'])
